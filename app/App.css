@@ -1,0 +1,58 @@
+;/* Base styling */
+.App {
+  text-align: center;
+  background-color: #f0f8ff; /* Light azure background */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Header with an azure background */
+.App-header {
+  background-color: #007FFF; /* Azure */
+  width: 100%;
+  padding: 20px;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Tweet container styling */
+.tweet-container {
+  background: #fff;
+  border: 2px solid #007FFF;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for sign-in and error messages */
+.message {
+  margin-top: 20px;
+}
+
+.sign-in-btn {
+  background-color: #FFD700; /* Gold */
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.sign-in-btn:hover {
+  background-color: #e6c200;
+}
+
+/* Loading message styling */
+.loading {
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
